@@ -6,38 +6,48 @@
     <title>Google</title>
 </head>
 <body>
-<lis class="navbar">
-    <li>Gmail</li>
-    <li>Image</li>
-    <li>Apps</li>
-    <li>Profile</li>
-</lis>
+<ul class="navbar">
+    <li><a class="navbar-text" href="">Gmail</a></li>
+    <li><a class="navbar-text" href="">Image</a></li>
+    <li><a class="navbar-image" href="">Apps</a></li>
+    <li><a class="navbar-image" href="">Profile</a></li>
+</ul>
 <div class="middle-block">
-    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+    <img alt="Google logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
     <form action="">  
         <input type="text" placeholder="Search">
-        <button type="submit">Google Search</button>
-        <button type="submit">I'm Feeling Lucky</button>
+        <div class="form-buttons">
+            <button id="google-search" type="submit">
+                Google Search
+            </button>
+            <button id="feeling-lucky" type="submit">
+                I'm Feeling Lucky
+            </button>
+        </div>
     </form>
-    <li>Google offered in:
-        <ul>
+    <ul class="languages">Google offered in:
+        <li>
             <a href="">Nederlands</a>
-        </ul>
-        <ul>
+        </li>
+        <li>
             <a href="">Frysk</a>
-        </ul>
-    </li>
+        </li>
+    </ul>
 </div>
 <footer>
     <p>Netherlands</p>
     <ul>
-        <li>About</li>
-        <li>Advertising</li>
-        <li>Business</li>
-        <li>How Search works</li>
-        <li>Privacy</li>
-        <li>Terms</li>
-        <li>Settings</li>
+        <div class="footer-group-one">
+            <li>About</li>
+            <li>Advertising</li>
+            <li>Business</li>
+            <li>How Search works</li>
+        </div>
+        <div class="footer-group-two">
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Settings</li>
+        </div>
     </ul>
 </footer>
 </body>
