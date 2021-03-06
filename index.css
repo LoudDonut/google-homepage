@@ -6,6 +6,7 @@ body {
     display: inline;
 }
 .languages {
+    margin-top: 23px;
     text-align: center;
 }
 .middle-block button{
@@ -15,9 +16,13 @@ body {
 #feeling-lucky {
 }
 .form-buttons {
+    margin-top: 23px;
     text-align: center;
 }
 .middle-block input {
+    margin-top: 23px;
+    width: 65%;
+    height: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -26,10 +31,11 @@ body {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 300px;
+    width: 270px;
     height: auto;
 }
 .middle-block {
+    padding-top: 60px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -62,12 +68,21 @@ body {
 }
 /* Footer */
 .footer-group-two {
-    display: inline
+    display: inline;
+    margin-left: 60px;
 }
 .footer-group-one {
     display: inline;
 }
+footer a:hover {
+    text-decoration: underline;
+}
+footer a {
+    text-decoration: none;
+    color: rgb(138, 134, 134);
+}
 footer li {
+    margin-right: 20px;
     display: inline;
 }
 footer ul {
@@ -76,14 +91,20 @@ footer ul {
     padding-top: 15px;
 }
 footer p {
+    color: rgb(138, 134, 134);
     margin-left: 30px;
     height: 30px;
     width: 100%;
     padding-top: 15px;
+}
+.top-footer-block {
     border-bottom: solid;
+    border-width: 1px;
+    border-color: rgba(170, 170, 170, 0.54)
 }
 footer {
     position: fixed;
-    background-color: lightgray;
+    bottom: 0px;
+    background-color: rgba(216, 215, 215, 0.54);
     width: 100%;
 }
