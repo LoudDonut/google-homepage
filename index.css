@@ -20,6 +20,10 @@ body {
 .middle-block button{
     margin-top: 23px;
 }
+#google-search a{
+    text-decoration: none;
+    color: #000000;
+}
 #google-search {
     height: 38px;
     width: 120px;
