@@ -2,8 +2,12 @@ body {
     font-family: arial, sans-serif;
 }
 /* Main body of the page */
+.languages a:hover {
+    text-decoration: underline;
+}
 .languages a {
     color: #1a0dab;
+    text-decoration: none;
 }
 .languages li {
     display: inline;
@@ -95,6 +99,12 @@ body {
 .navbar a {
     text-decoration: none;
     color: black;
+}
+#image-li {
+    margin-right: 5px;
+}
+#gmail-li {
+    margin-right: 5px;
 }
 .navbar li {
     display: inline-block;
