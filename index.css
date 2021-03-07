@@ -2,28 +2,44 @@ body {
     font-family: arial, sans-serif;
 }
 /* Main body of the page */
+.languages a {
+    color: #1a0dab;
+}
 .languages li {
     display: inline;
 }
 .languages {
-    margin-top: 23px;
+    margin-top: 25px;
     text-align: center;
+    font-size: 13px;
 }
 .middle-block button{
+    margin-top: 23px;
 }
 #google-search {
+    height: 38px;
+    width: 120px;
+    margin-right: 3px;
+    background-color: rgba(216, 215, 215, 0.54);
 }
 #feeling-lucky {
+    height: 38px;
+    width: 120px;
+    margin-left: 3px;
+    background-color: rgba(216, 215, 215, 0.54);
 }
 .form-buttons {
-    margin-top: 23px;
+    margin-top: 15px;
     text-align: center;
 }
 .middle-block input {
     margin-top: 23px;
     width: 65%;
-    height: 30px;
+    height: 40px;
     display: block;
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
     margin-left: auto;
     margin-right: auto;
 } 
@@ -35,12 +51,34 @@ body {
     height: auto;
 }
 .middle-block {
-    padding-top: 60px;
+    padding-top: 200px;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 /* Navbar */
+#sign-in-button a {
+    color: rgb(255, 255, 255);
+}
+#sign-in-button {
+    display: inline-block;
+    background-color: #2b7de9;
+    border-radius: 7px;
+    display: block;
+    height: 40px;
+    width: 95px;
+}
+#sign-in-block {
+}
+#apps-button {
+    text-align: center;
+    border: solid;
+    border-radius: 50%;
+    background-color:rgba(216, 215, 215, 0.54);
+    border-color: rgb(255, 255, 255);
+    height: 3.8em;
+    width: 3.8em;
+}
 .navbar-text:hover {
     text-decoration: underline;
 }
@@ -49,22 +87,24 @@ body {
 .navbar-text {
     text-decoration: none;
     color: #000000;
+    font-size: 13px;
+    font: Roboto, sans-serif;
 }
 .navbar-image {
 }
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
 .navbar li {
-    display: inline;
-    background-color: lightgrey;
-    margin-right: 20px;
-    padding-left: 10px;
+    display: inline-block;
 }
 .navbar {
     list-style-type: none;
-    overflow: hidden;
+    overflow: none;
     position: fixed;
-    right: 0px;
-    height: 100px;
-    width: auto;
+    top: 7px;
+    right: 10px;
 }
 /* Footer */
 .footer-group-two {

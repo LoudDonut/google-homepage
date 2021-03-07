@@ -2,6 +2,8 @@
 <html>
 <head>
     <link href="Assets/eric-meyers-css-reset-base.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="index.css" rel="stylesheet">
     <title>Google</title>
 </head>
@@ -9,8 +11,16 @@
 <ul class="navbar">
     <li><a class="navbar-text" href="">Gmail</a></li>
     <li><a class="navbar-text" href="">Image</a></li>
-    <li><a class="navbar-image" href="">Apps</a></li>
-    <li><a class="navbar-image" href="">Profile</a></li>
+    <li>
+        <button id="apps-button">
+            <a class="navbar-image" href="">Apps</a>
+        </button>    
+    </li>
+    <li id="sign-in-block">
+        <button id="sign-in-button">
+            <a class="navbar-image" href="">Sign in</a>
+        </button>    
+    </li>
 </ul>
 <div class="middle-block">
     <img alt="Google logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
